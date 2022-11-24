@@ -3,11 +3,19 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 
 import AppHeader from "./components/AppHeader.vue";
+import AppMain from "./components/AppMain.vue";
+import AppNavBottom from "./components/AppNavBottom.vue";
+import AppFooterTop from "./components/AppFooterTop.vue";
+import AppFooterBottom from "./components/AppFooterBottom.vue";
 
 export default {
   components: {
 
-    AppHeader
+    AppHeader,
+    AppMain,
+    AppNavBottom,
+    AppFooterTop,
+    AppFooterBottom
 
   }
 }
@@ -15,6 +23,10 @@ export default {
 
 <template>
   <AppHeader />
+  <AppMain />
+  <AppNavBottom />
+  <AppFooterTop />
+  <AppFooterBottom />
 </template>
 
 <style scoped>
