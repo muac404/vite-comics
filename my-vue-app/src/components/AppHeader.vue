@@ -35,14 +35,14 @@ export default {
 
 <style scoped>
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
+
     background-color: white;
     padding: 20px;
 }
