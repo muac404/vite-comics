@@ -5,9 +5,16 @@ export default {
 </script>
 
 <template>
-    <h2> -Content goes here-</h2>
+    <div class="container">
+        <h2> - - Content goes here - - </h2>
+    </div>
 </template>
 
-<style>
+<style scoped>
+.container {
+    max-width: 1000px;
+    margin: auto;
+    height: 200px;
 
+}
 </style>
