@@ -21,6 +21,12 @@ export default {
                 <div class="icon">
                     <img src="../assets/footer-youtube.png" alt="">
                 </div>
+                <div class="icon">
+                    <img src="../assets/footer-pinterest.png" alt="">
+                </div>
+                <div class="icon">
+                    <img src="../assets/footer-periscope.png" alt="">
+                </div>
             </div>
         </div>
     </section>

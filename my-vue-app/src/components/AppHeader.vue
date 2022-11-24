@@ -63,4 +63,9 @@ li {
     padding: 10px;
 
 }
+
+a:hover {
+    color: #0282f9;
+
+}
 </style>

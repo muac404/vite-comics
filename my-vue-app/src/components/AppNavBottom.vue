@@ -52,16 +52,19 @@ export default {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
+    justify-content: center;
+    flex-grow: 1;
 
 }
 
 .card {
     display: flex;
     align-items: center;
-    margin: 10px;
+    width: calc(100% / 5);
+    margin: 20px;
     cursor: pointer;
 
 }

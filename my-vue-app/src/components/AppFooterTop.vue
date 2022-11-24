@@ -82,12 +82,14 @@ export default {
 }
 
 img {
-    width: 300px;
+    width: 250px;
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -103,6 +105,7 @@ ul {
 li {
     list-style: none;
     padding: 0;
+    padding-bottom: 5px;
     margin-right: 40px;
 
 }
@@ -118,8 +121,8 @@ li:not(:first-child):hover {
 }
 
 h3 {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-weight: 400;
 }
 
@@ -129,5 +132,7 @@ h3 {
 
 .footer-r {
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 </style>
