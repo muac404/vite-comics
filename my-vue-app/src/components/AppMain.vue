@@ -127,7 +127,7 @@ export default {
 }
 
 .comic-card {
-  text-align: center;
-  margin: 10px;
+  text-align: left;
+  margin: 15px;
 }
 </style>

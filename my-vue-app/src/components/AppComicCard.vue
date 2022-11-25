@@ -12,9 +12,22 @@ export default {
 
 <template>
   <div class="comic-card">
-    <img :src="thumb" alt="type" />
-    <h4>{{ series }}</h4>
+    <div class="comic-img">
+      <img :src="thumb" alt="type" />
+    </div>
+    <div>{{ series }}</div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.comic-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.comic-card {
+  width: 150px;
+}
+</style>
