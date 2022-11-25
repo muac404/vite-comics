@@ -19,7 +19,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .comic-img img {
   width: 150px;
   height: 150px;
