@@ -3,6 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 
 import AppHeader from "./components/AppHeader.vue";
+import AppHero from "./components/AppHero.vue";
 import AppMain from "./components/AppMain.vue";
 import AppNavBottom from "./components/AppNavBottom.vue";
 import AppFooterTop from "./components/AppFooterTop.vue";
@@ -10,19 +11,19 @@ import AppFooterBottom from "./components/AppFooterBottom.vue";
 
 export default {
   components: {
-
     AppHeader,
+    AppHero,
     AppMain,
     AppNavBottom,
     AppFooterTop,
-    AppFooterBottom
-
-  }
-}
+    AppFooterBottom,
+  },
+};
 </script>
 
 <template>
   <AppHeader />
+  <AppHero />
   <AppMain />
   <AppNavBottom />
   <AppFooterTop />
