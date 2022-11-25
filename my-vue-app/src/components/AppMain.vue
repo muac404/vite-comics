@@ -157,7 +157,7 @@ export default {
   border: none;
   color: white;
   background-color: #0282f9;
-  padding: 10px 20px;
+  padding: 10px 40px;
   cursor: pointer;
   transition: all 0.2s;
   &:hover {
