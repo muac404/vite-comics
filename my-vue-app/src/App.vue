@@ -5,6 +5,7 @@
 import AppHeader from "./components/AppHeader.vue";
 import AppHero from "./components/AppHero.vue";
 import AppMain from "./components/AppMain.vue";
+import AppComicCard from "./components/AppComicCard.vue";
 import AppNavBottom from "./components/AppNavBottom.vue";
 import AppFooterTop from "./components/AppFooterTop.vue";
 import AppFooterBottom from "./components/AppFooterBottom.vue";
@@ -13,6 +14,7 @@ export default {
   components: {
     AppHeader,
     AppHero,
+    AppComicCard,
     AppMain,
     AppNavBottom,
     AppFooterTop,
