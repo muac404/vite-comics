@@ -101,6 +101,10 @@ export default {
 
 <template>
   <div class="container">
+    <div class="current-series">
+      <span>CURRENT SERIES</span>
+    </div>
+
     <section class="cards">
       <AppComicCard
         class="comic-card"
@@ -109,25 +113,55 @@ export default {
         :series="card.series"
       />
     </section>
+    <div class="load-more-btn">
+      <button>LOAD MORE</button>
+    </div>
+
     <!-- <h2>- - Content goes here - -</h2> -->
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
   max-width: 1200px;
   padding: 20px;
   margin: auto;
+  position: relative;
 }
 
+.current-series span {
+  color: white;
+  font-size: 26px;
+  background-color: #0282f9;
+  padding: 10px 20px;
+  position: absolute;
+  top: -20px;
+}
 .cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 20px;
 }
 
 .comic-card {
   text-align: left;
   margin: 15px;
+}
+.load-more-btn {
+  display: flex;
+  justify-content: center;
+}
+.load-more-btn button {
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+  &:hover {
+    scale: 1.1;
+  }
 }
 </style>
