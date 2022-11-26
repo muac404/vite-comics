@@ -72,10 +72,11 @@ export default {
 <style scoped>
 .footer-top {
   background-image: url("../assets/footer-bg.jpg");
+  background-size: cover;
 }
 
 img {
-  width: 400px;
+  width: 300px;
 }
 
 .container {
